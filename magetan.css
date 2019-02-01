@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"]{float: left; padding: 15px;}
+
+/* for smartphone */
+[class*="col-"] { width: 100%; }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  @media only screen and (min-width: 768px){
+    /* for desktop */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+body{
+  padding: 0;
+  margin: 0;
+}
+.menu{
+  width: 100%;
+  height: 60px;
+  background:#332200;
+  position: fixed;
+  z-index: 1
+}
+.menu ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.menu li{
+  float: right;
+}
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  display: block;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.menu li a:hover{
+  border-top: 2px solid darkgrey;
+  color: darkgrey;
+}
+.menu img{
+  width: 40px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: -5px;
+}
+.header{
+  width: 100%;
+  height: 600px;
+  background-image: url(m6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+.bayangan{
+  width: 100%;
+  height: 600px;
+  background-color: #000;
+  background-size: cover;
+  opacity: 0.4;
+  float: left;
+}
+.bayangan h1{
+  text-align: center;
+  font-family: Bradley Hand ITC;
+  color: #fff;
+  margin-top: 200px;
+  font-size: 80px;
+  font-weight: 40px;
+}
+.bayangan h3{
+  text-align: center;
+  font-family: Aparajita;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 40px;
+  margin-bottom: 50px;
+}
+.image{
+  width: 250px;
+  height: 200px;
+  border-radius: 250%;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+.makanan{
+  width: 100%;
+  margin: 0 auto;
+  background:  #1a1a1a;
+}
+.makanan h1{
+  text-align: center;
+  font-family: Blackadder ITC;
+  color: #a3a375;
+  font-size: 50px;
+}
+.makanan h3{
+  color: #cccccc;
+}
+.makanan p{
+  color: #fff;
+  text-align: left;
+}
+.box{
+  text-align: center;
+}
+.wisata{
+  background-color: #ffbf80;
+  background-position: center;
+  background-size: cover;
+}
+.wisata h1{
+  font-weight: 60px;
+  font-family: Segoe Print;
+  color: maroon;
+  margin-top: auto;
+}
+.wisata h3{
+  font-weight: 40px;
+  font-family: Lucida Handwriting;
+}
+
+div.wisata .left{
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+div.wisata .left p{
+  margin-left: 20px;
+  color: #000033;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+div.wisata .right{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+
+div.wisata .right img{
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+
+.budaya{
+  background-color: #006bb3;
+  background-position: center;
+  background-size: cover;
+}
+.budaya h1{
+  font-weight: 100px;
+  font-family: Andalus;
+  color: #001a33;
+  margin-top: 40px;
+}
+
+div.budaya .right{
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+div.budaya .right p{
+  margin-left: 20px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+div.budaya .left{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+
+div.budaya .left img{
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.footer{
+  background: #5e0001;
+  color: #fff;
+}
